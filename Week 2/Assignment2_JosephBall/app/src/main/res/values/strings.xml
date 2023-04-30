@@ -3,4 +3,7 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">COLOR!</string>
+     <string name="previous">previous</string>
+     <string name="lorem_ipsum">lorem_ipsum</string>
+     <string name="second_fragment_label">second fragment</string>
 </resources>
