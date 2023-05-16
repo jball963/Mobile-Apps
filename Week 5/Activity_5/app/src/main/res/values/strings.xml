@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="location">New York</string>
+    <string name="weather">Clear</string>
+    <string name="skies">Clear skies</string>
+
+</resources>
