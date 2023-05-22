@@ -15,33 +15,32 @@
         android:layout_width="match_parent"
         android:layout_height="79dp"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#ffffff"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
     <ImageView
         android:id="@+id/icon"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:textColor="#ffffff"/>
+        android:layout_height="70dp"/>
 
     <TextView
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:textColor="#ffffff"/>
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
     <TextView
         android:id="@+id/temp"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#ffffff"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
     <TextView
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:textColor="#ffffff"/>
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
 </LinearLayout>

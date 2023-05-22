@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             header.setText(obj.get("name").toString());
             main.setText((CharSequence) obj.getJSONArray("weather").getJSONObject(0).get("main"));
             description.setText((CharSequence) obj.getJSONArray("weather").getJSONObject(0).get("description"));
-            temp.setText(obj.getJSONObject("main").get("temp").toString());
+            temp.setText(obj.getJSONObject("main").get("temp").toString() + "°F");
 
             ImageView iv = findViewById(R.id.icon);
             String icon = obj.getJSONArray("weather").getJSONObject(0).get("icon").toString();
